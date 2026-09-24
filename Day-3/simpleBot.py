@@ -6,7 +6,7 @@ while True:
     response = ollama.chat(
         model="llama3.2:3b",
         messages=[
-            {
+            ex{
                 "role": "system",
                 "content": "Give the answer in 2 lines only."
             },
