@@ -2,5 +2,6 @@ import streamlit as st
 st.title("My first Streamlit App!!!")
 st.write("Welcome to my AI application!")
 name = st.text_input("Enter your name: ")
-if st.byutton("submit"):
-    st.write("Hello", name)
+if st.button("submit"):
+    st.write("Hello", name) 
+    
